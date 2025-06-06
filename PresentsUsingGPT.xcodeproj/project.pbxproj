@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0C455808944A590E5172D5 /* Pods_PresentsUsingGPT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6848398318A8C4E1089DFEFD /* Pods_PresentsUsingGPT.framework */; };
+		6E09CD9D7EBE46A59B0B0E6E /* Pods_PresentsUsingGPT_PresentsUsingGPTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E079185F9B731D629EC96F /* Pods_PresentsUsingGPT_PresentsUsingGPTUITests.framework */; };
+		9A89F87BC7208E50DF51720D /* Pods_PresentsUsingGPTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF29ADC88DD89DA4EDB18D22 /* Pods_PresentsUsingGPTTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81CED2492DDF3EBD006F9543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81CED22A2DDF3EBB006F9543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81CED2312DDF3EBB006F9543;
+			remoteInfo = PresentsUsingGPT;
+		};
+		81CED2532DDF3EBD006F9543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81CED22A2DDF3EBB006F9543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81CED2312DDF3EBB006F9543;
+			remoteInfo = PresentsUsingGPT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BDEA3A12F77F9172D99563A /* Pods-PresentsUsingGPTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentsUsingGPTTests.debug.xcconfig"; path = "Target Support Files/Pods-PresentsUsingGPTTests/Pods-PresentsUsingGPTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		676FF076812182A4730C9153 /* Pods-PresentsUsingGPT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentsUsingGPT.debug.xcconfig"; path = "Target Support Files/Pods-PresentsUsingGPT/Pods-PresentsUsingGPT.debug.xcconfig"; sourceTree = "<group>"; };
+		6848398318A8C4E1089DFEFD /* Pods_PresentsUsingGPT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PresentsUsingGPT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CED2322DDF3EBB006F9543 /* PresentsUsingGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentsUsingGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CED2482DDF3EBD006F9543 /* PresentsUsingGPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentsUsingGPTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CED2522DDF3EBD006F9543 /* PresentsUsingGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentsUsingGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CEBF83F1F041C7010FF44A /* Pods-PresentsUsingGPT-PresentsUsingGPTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentsUsingGPT-PresentsUsingGPTUITests.release.xcconfig"; path = "Target Support Files/Pods-PresentsUsingGPT-PresentsUsingGPTUITests/Pods-PresentsUsingGPT-PresentsUsingGPTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8815515556BDB1B4626E640 /* Pods-PresentsUsingGPTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentsUsingGPTTests.release.xcconfig"; path = "Target Support Files/Pods-PresentsUsingGPTTests/Pods-PresentsUsingGPTTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF29ADC88DD89DA4EDB18D22 /* Pods_PresentsUsingGPTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PresentsUsingGPTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F397039A5AA2E2E5A20881F5 /* Pods-PresentsUsingGPT-PresentsUsingGPTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentsUsingGPT-PresentsUsingGPTUITests.debug.xcconfig"; path = "Target Support Files/Pods-PresentsUsingGPT-PresentsUsingGPTUITests/Pods-PresentsUsingGPT-PresentsUsingGPTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9E079185F9B731D629EC96F /* Pods_PresentsUsingGPT_PresentsUsingGPTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PresentsUsingGPT_PresentsUsingGPTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA88F35F52D7271102511376 /* Pods-PresentsUsingGPT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentsUsingGPT.release.xcconfig"; path = "Target Support Files/Pods-PresentsUsingGPT/Pods-PresentsUsingGPT.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8178ADCD2DEF90CC000F7D69 /* Exceptions for "PresentsUsingGPT" folder in "PresentsUsingGPT" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/Info.plist,
+			);
+			target = 81CED2312DDF3EBB006F9543 /* PresentsUsingGPT */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		81CED2342DDF3EBB006F9543 /* PresentsUsingGPT */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8178ADCD2DEF90CC000F7D69 /* Exceptions for "PresentsUsingGPT" folder in "PresentsUsingGPT" target */,
+			);
+			path = PresentsUsingGPT;
+			sourceTree = "<group>";
+		};
+		81CED24B2DDF3EBD006F9543 /* PresentsUsingGPTTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PresentsUsingGPTTests;
+			sourceTree = "<group>";
+		};
+		81CED2552DDF3EBD006F9543 /* PresentsUsingGPTUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PresentsUsingGPTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81CED22F2DDF3EBB006F9543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0C455808944A590E5172D5 /* Pods_PresentsUsingGPT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CED2452DDF3EBD006F9543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A89F87BC7208E50DF51720D /* Pods_PresentsUsingGPTTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CED24F2DDF3EBD006F9543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E09CD9D7EBE46A59B0B0E6E /* Pods_PresentsUsingGPT_PresentsUsingGPTUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32ECC037583F5669825236BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6848398318A8C4E1089DFEFD /* Pods_PresentsUsingGPT.framework */,
+				F9E079185F9B731D629EC96F /* Pods_PresentsUsingGPT_PresentsUsingGPTUITests.framework */,
+				DF29ADC88DD89DA4EDB18D22 /* Pods_PresentsUsingGPTTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81CED2292DDF3EBB006F9543 = {
+			isa = PBXGroup;
+			children = (
+				81CED2342DDF3EBB006F9543 /* PresentsUsingGPT */,
+				81CED24B2DDF3EBD006F9543 /* PresentsUsingGPTTests */,
+				81CED2552DDF3EBD006F9543 /* PresentsUsingGPTUITests */,
+				81CED2332DDF3EBB006F9543 /* Products */,
+				9A8E2655C5BE7637DED01224 /* Pods */,
+				32ECC037583F5669825236BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81CED2332DDF3EBB006F9543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81CED2322DDF3EBB006F9543 /* PresentsUsingGPT.app */,
+				81CED2482DDF3EBD006F9543 /* PresentsUsingGPTTests.xctest */,
+				81CED2522DDF3EBD006F9543 /* PresentsUsingGPTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A8E2655C5BE7637DED01224 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				676FF076812182A4730C9153 /* Pods-PresentsUsingGPT.debug.xcconfig */,
+				FA88F35F52D7271102511376 /* Pods-PresentsUsingGPT.release.xcconfig */,
+				F397039A5AA2E2E5A20881F5 /* Pods-PresentsUsingGPT-PresentsUsingGPTUITests.debug.xcconfig */,
+				C8CEBF83F1F041C7010FF44A /* Pods-PresentsUsingGPT-PresentsUsingGPTUITests.release.xcconfig */,
+				5BDEA3A12F77F9172D99563A /* Pods-PresentsUsingGPTTests.debug.xcconfig */,
+				D8815515556BDB1B4626E640 /* Pods-PresentsUsingGPTTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81CED2312DDF3EBB006F9543 /* PresentsUsingGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CED25B2DDF3EBD006F9543 /* Build configuration list for PBXNativeTarget "PresentsUsingGPT" */;
+			buildPhases = (
+				DB2E64053219002341CA1949 /* [CP] Check Pods Manifest.lock */,
+				81CED22E2DDF3EBB006F9543 /* Sources */,
+				81CED22F2DDF3EBB006F9543 /* Frameworks */,
+				81CED2302DDF3EBB006F9543 /* Resources */,
+				F75C68D5E9B6DC8E6E2D92C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				81CED2342DDF3EBB006F9543 /* PresentsUsingGPT */,
+			);
+			name = PresentsUsingGPT;
+			productName = PresentsUsingGPT;
+			productReference = 81CED2322DDF3EBB006F9543 /* PresentsUsingGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81CED2472DDF3EBD006F9543 /* PresentsUsingGPTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CED2602DDF3EBD006F9543 /* Build configuration list for PBXNativeTarget "PresentsUsingGPTTests" */;
+			buildPhases = (
+				1CA5764E50B96A20A7123924 /* [CP] Check Pods Manifest.lock */,
+				81CED2442DDF3EBD006F9543 /* Sources */,
+				81CED2452DDF3EBD006F9543 /* Frameworks */,
+				81CED2462DDF3EBD006F9543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81CED24A2DDF3EBD006F9543 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				81CED24B2DDF3EBD006F9543 /* PresentsUsingGPTTests */,
+			);
+			name = PresentsUsingGPTTests;
+			productName = PresentsUsingGPTTests;
+			productReference = 81CED2482DDF3EBD006F9543 /* PresentsUsingGPTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81CED2512DDF3EBD006F9543 /* PresentsUsingGPTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CED2632DDF3EBD006F9543 /* Build configuration list for PBXNativeTarget "PresentsUsingGPTUITests" */;
+			buildPhases = (
+				86AF8AFDE4847A9AFC33FE9C /* [CP] Check Pods Manifest.lock */,
+				81CED24E2DDF3EBD006F9543 /* Sources */,
+				81CED24F2DDF3EBD006F9543 /* Frameworks */,
+				81CED2502DDF3EBD006F9543 /* Resources */,
+				A575C84E84A28C9D3F7D4624 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81CED2542DDF3EBD006F9543 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				81CED2552DDF3EBD006F9543 /* PresentsUsingGPTUITests */,
+			);
+			name = PresentsUsingGPTUITests;
+			productName = PresentsUsingGPTUITests;
+			productReference = 81CED2522DDF3EBD006F9543 /* PresentsUsingGPTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81CED22A2DDF3EBB006F9543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					81CED2312DDF3EBB006F9543 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					81CED2472DDF3EBD006F9543 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 81CED2312DDF3EBB006F9543;
+					};
+					81CED2512DDF3EBD006F9543 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 81CED2312DDF3EBB006F9543;
+					};
+				};
+			};
+			buildConfigurationList = 81CED22D2DDF3EBB006F9543 /* Build configuration list for PBXProject "PresentsUsingGPT" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81CED2292DDF3EBB006F9543;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 81CED2332DDF3EBB006F9543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81CED2312DDF3EBB006F9543 /* PresentsUsingGPT */,
+				81CED2472DDF3EBD006F9543 /* PresentsUsingGPTTests */,
+				81CED2512DDF3EBD006F9543 /* PresentsUsingGPTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81CED2302DDF3EBB006F9543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CED2462DDF3EBD006F9543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CED2502DDF3EBD006F9543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CA5764E50B96A20A7123924 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PresentsUsingGPTTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86AF8AFDE4847A9AFC33FE9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PresentsUsingGPT-PresentsUsingGPTUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A575C84E84A28C9D3F7D4624 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PresentsUsingGPT-PresentsUsingGPTUITests/Pods-PresentsUsingGPT-PresentsUsingGPTUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PresentsUsingGPT-PresentsUsingGPTUITests/Pods-PresentsUsingGPT-PresentsUsingGPTUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PresentsUsingGPT-PresentsUsingGPTUITests/Pods-PresentsUsingGPT-PresentsUsingGPTUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB2E64053219002341CA1949 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PresentsUsingGPT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F75C68D5E9B6DC8E6E2D92C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PresentsUsingGPT/Pods-PresentsUsingGPT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PresentsUsingGPT/Pods-PresentsUsingGPT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PresentsUsingGPT/Pods-PresentsUsingGPT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81CED22E2DDF3EBB006F9543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CED2442DDF3EBD006F9543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CED24E2DDF3EBD006F9543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81CED24A2DDF3EBD006F9543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81CED2312DDF3EBB006F9543 /* PresentsUsingGPT */;
+			targetProxy = 81CED2492DDF3EBD006F9543 /* PBXContainerItemProxy */;
+		};
+		81CED2542DDF3EBD006F9543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81CED2312DDF3EBB006F9543 /* PresentsUsingGPT */;
+			targetProxy = 81CED2532DDF3EBD006F9543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81CED25C2DDF3EBD006F9543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676FF076812182A4730C9153 /* Pods-PresentsUsingGPT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PresentsUsingGPT/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.university.PresentsUsingGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81CED25D2DDF3EBD006F9543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA88F35F52D7271102511376 /* Pods-PresentsUsingGPT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PresentsUsingGPT/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.university.PresentsUsingGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81CED25E2DDF3EBD006F9543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81CED25F2DDF3EBD006F9543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81CED2612DDF3EBD006F9543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDEA3A12F77F9172D99563A /* Pods-PresentsUsingGPTTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.university.PresentsUsingGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PresentsUsingGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PresentsUsingGPT";
+			};
+			name = Debug;
+		};
+		81CED2622DDF3EBD006F9543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8815515556BDB1B4626E640 /* Pods-PresentsUsingGPTTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.university.PresentsUsingGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PresentsUsingGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PresentsUsingGPT";
+			};
+			name = Release;
+		};
+		81CED2642DDF3EBD006F9543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F397039A5AA2E2E5A20881F5 /* Pods-PresentsUsingGPT-PresentsUsingGPTUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.university.PresentsUsingGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PresentsUsingGPT;
+			};
+			name = Debug;
+		};
+		81CED2652DDF3EBD006F9543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8CEBF83F1F041C7010FF44A /* Pods-PresentsUsingGPT-PresentsUsingGPTUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.university.PresentsUsingGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PresentsUsingGPT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81CED22D2DDF3EBB006F9543 /* Build configuration list for PBXProject "PresentsUsingGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CED25E2DDF3EBD006F9543 /* Debug */,
+				81CED25F2DDF3EBD006F9543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CED25B2DDF3EBD006F9543 /* Build configuration list for PBXNativeTarget "PresentsUsingGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CED25C2DDF3EBD006F9543 /* Debug */,
+				81CED25D2DDF3EBD006F9543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CED2602DDF3EBD006F9543 /* Build configuration list for PBXNativeTarget "PresentsUsingGPTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CED2612DDF3EBD006F9543 /* Debug */,
+				81CED2622DDF3EBD006F9543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CED2632DDF3EBD006F9543 /* Build configuration list for PBXNativeTarget "PresentsUsingGPTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CED2642DDF3EBD006F9543 /* Debug */,
+				81CED2652DDF3EBD006F9543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81CED22A2DDF3EBB006F9543 /* Project object */;
+}
